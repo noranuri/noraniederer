@@ -17,3 +17,13 @@ function myFunction() {
     menu.classList.remove("sticky");
   }
 }
+
+// menu icon
+function myFunction2() {
+  var x = document.getElementById("menu");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}

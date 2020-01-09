@@ -26,6 +26,10 @@ h1 {
   font-weight: 300;
 }
 
+h1 a {
+  color: #599a9e;
+}
+
 h2 {
   font-size: 2em;
   padding-left: 20px;
@@ -248,6 +252,12 @@ body#arbeitsproben #screenshot {
   padding: 20px 0px;
 }
 
+#footer p {
+  font-size: 0.8em;
+  padding: 0;
+  margin-bottom: 5px;
+}
+
 #footer a {
   display: block;
   padding: 5px;
@@ -344,6 +354,10 @@ body#arbeitsproben #screenshot {
     float: left;
     margin: 0 auto;
     width: 50%;
+  }
+
+  body#impressum #main {
+    padding-right: 50px;
   }
 
   body#kontakt img,
@@ -453,6 +467,10 @@ body#arbeitsproben #screenshot {
 
   #screenshot {
     width: 50%;
+  }
+
+  body#impressum #right {
+    height: 200vh;
   }
 }
 

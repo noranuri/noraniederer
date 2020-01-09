@@ -414,6 +414,7 @@ body#arbeitsproben #screenshot {
   body#angebot #right div {
     float: none;
     width: 100%;
+    height: auto;
   }
 
   #screenshot {

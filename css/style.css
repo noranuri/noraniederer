@@ -118,6 +118,7 @@ a {
   overflow: hidden;
   /* padding-top: 5px; */
   width: 100%;
+  height: auto;
   min-height: 100%;
   background-color: #f7fbfb;
 }
@@ -414,7 +415,6 @@ body#arbeitsproben #screenshot {
   body#angebot #right div {
     float: none;
     width: 100%;
-    height: auto;
   }
 
   #screenshot {

@@ -161,7 +161,7 @@ div#home-img {
 p#home-paragraph {
   background-color: rgba(247, 251, 251, 0.25);
   width: 100%;
-  padding: 0px 25px 20px 20px;
+  padding: 0px 25px 10px 20px;
 }
 
 h2#home_angebot {
@@ -282,7 +282,8 @@ body#arbeitsproben #screenshot {
 /* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
 
 .sticky + .main-content {
-  padding-top: 116.667px;
+  /* padding-top: 116.667px; */
+  padding-top: 140px;
 }
 
 @media screen and (min-width: 500px) {
@@ -327,7 +328,7 @@ body#arbeitsproben #screenshot {
 
   p#home-paragraph {
     width: min-content;
-    min-width: 300px;
+    min-width: 250px;
     float: right;
     margin-right: -10px;
     margin-top: 10px;
@@ -335,6 +336,7 @@ body#arbeitsproben #screenshot {
 
   body#home #main div {
     text-align: right;
+    /* text-align: left; */
     padding-right: 10px;
   }
 
@@ -423,8 +425,13 @@ body#arbeitsproben #screenshot {
   body#home #main div {
     /* background-color: deeppink; */
     height: 600px;
-    text-align: right;
+    /* text-align: right; */
+    text-align: left;
     padding-right: 20px;
+  }
+
+  p#home-paragraph {
+    margin-top: -50px;
   }
 
   #right {

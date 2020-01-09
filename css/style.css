@@ -200,11 +200,12 @@ body#arbeitsproben h2#home_arbeitsproben {
 
 #right {
   padding-top: 0px;
+  padding-bottom: 50px;
   width: 100%;
   height: 100%;
   background-color: #aedadc;
   text-align: left;
-  margin-bottom: 100px;
+  /* margin-bottom: 100px; */
   overflow: hidden;
 }
 

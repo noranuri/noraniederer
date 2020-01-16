@@ -1,5 +1,15 @@
 /* css style */
 
+:root {
+  --lightColor0: #f7fbfb;
+  --lightColor1: #e4e9eb;
+  --lightColor2: #cfd2d7;
+
+  --darkColor1: #2c4157;
+  --darkColor2: #3f658d;
+  --darkColor3: #72869d;
+}
+
 body {
   padding: 0;
   margin: 0;
@@ -7,6 +17,7 @@ body {
   font-weight: 300;
   min-height: 100%;
   width: 100vw;
+  color: var(--darkColor1);
 }
 
 div {
@@ -23,12 +34,12 @@ p {
 
 h1 {
   font-size: 3.5em;
-  color: #599a9e;
+  color: var(--darkColor1);
   font-weight: 300;
 }
 
 h1 a {
-  color: #599a9e;
+  color: var(--darkColor2);
 }
 
 h2 {
@@ -40,8 +51,8 @@ h2 {
 }
 
 #header h2 {
-  /* margin-top: -25px; */
-  color: #599a9e;
+  margin-top: -20px;
+  color: var(--lightColor2);
   font-size: 2em;
   font-weight: 300;
   padding: 50px 20px 10px 10px;
@@ -56,7 +67,7 @@ h3 {
 }
 
 #container {
-  background-color: #f7fbfb;
+  background-color: var(--lightColor0);
   position: relative;
   min-height: 100vh;
   overflow: hidden;
@@ -68,7 +79,9 @@ h3 {
   width: 100%;
   height: 240px;
   background-image: url(bilder/IMG_4415_neu1_sw.jpg);
+  background-image: url(bilder/IMG_1512_2.jpg);
   background-position: top;
+  background-position: bottom;
   background-size: cover;
   /* position: fixed; */
   padding-left: 5px;
@@ -102,7 +115,7 @@ button {
 button div {
   width: 30px;
   height: 5px;
-  background-color: #b0b0b0;
+  background-color: var(--lightColor2);
   margin: 5px 0;
   border: none;
   border-radius: 5px;
@@ -110,7 +123,7 @@ button div {
 }
 
 #menu {
-  background-color: #599a9e;
+  background-color: var(--darkColor1);
   margin: 0 auto;
   padding: 10px 20px;
   width: 100%;
@@ -120,7 +133,8 @@ button div {
 
 a {
   text-decoration: none;
-  color: #1c393d;
+  color: var(--darkColor1);
+  color: var(--lightColor2);
   margin-right: 15px;
   display: block;
 }
@@ -131,20 +145,21 @@ a {
 }
 #main a,
 #right a {
-  color: #599a9e;
+  color: var(--darkColor2);
   text-decoration: underline;
 }
 #main a:hover,
 #right a:hover {
-  color: #1c393d;
-  background-color: #e4e4e4;
+  color: var(--darkColor3);
+  background-color: var(--lightColor0);
   padding: 5px;
   margin: -5px;
 }
 
 #menu a:hover:not(.active),
 #footer a:hover:not(.active) {
-  background-color: #e4e4e4;
+  background-color: var(--lightColor2);
+  color: var(--darkColor2);
   padding: 5px;
 }
 
@@ -152,9 +167,8 @@ a {
   overflow: hidden;
   /* padding-top: 5px; */
   width: 100%;
-
   min-height: 100%;
-  background-color: #f7fbfb;
+  background-color: var(--lightColor1);
 }
 
 body#home #main div {
@@ -170,27 +184,29 @@ div#home-img {
 }
 
 p#home-paragraph {
-  background-color: rgba(247, 251, 251, 0.25);
+  background-color: rgb(207, 210, 215, 0.5);
   width: 100%;
   padding: 0px 25px 10px 20px;
 }
 
+h2#home_home {
+  color: var(--lightColor2);
+}
 h2#home_angebot {
-  border-bottom: 1px solid #e4e4e4;
+  border-bottom: 1px solid var(--lightColor0);
 }
 h2#home_arbeitsproben {
-  background-color: #e4e4e4;
-  border-bottom: 1px solid #f7fbfb;
-  padding-top: 30px;
+  border-bottom: 1px solid var(--lightColor0);
+  /* padding-top: 30px; */
 }
 
-body#arbeitsproben h2#home_arbeitsproben {
+/* body#arbeitsproben h2#home_arbeitsproben {
   margin-top: 0;
-}
+} */
 .div_box {
   padding: 5px;
   /* margin: 20px; */
-  background-color: #e4e4e4;
+  background-color: var(--lightColor1);
   overflow: hidden;
 }
 
@@ -210,7 +226,8 @@ body#arbeitsproben h2#home_arbeitsproben {
   padding-bottom: 80px;
   width: 100%;
   height: 100%;
-  background-color: #aedadc;
+  background-color: var(--lightColor2);
+
   text-align: left;
   /* margin-bottom: 100px; */
   overflow: hidden;
@@ -226,13 +243,13 @@ img {
 
 body#kontakt #right {
   width: 100%;
-  background-color: #e4e4e4;
+  background-color: var(--lightColor1);
   min-height: 100%;
 }
 
 #right a#mailbutton {
-  background-color: #aedadc;
-  color: #1c393d;
+  background-color: var(--lightColor2);
+  color: var(--darkColor1);
   padding: 20px;
   margin: 20px;
   /* width: max-content; */
@@ -241,7 +258,7 @@ body#kontakt #right {
 }
 
 #right a#mailbutton:hover {
-  background-color: #f7fbfb;
+  background-color: var(--lightColor0);
 }
 
 body#arbeitsproben #screenshot {
@@ -254,7 +271,7 @@ body#arbeitsproben #screenshot {
   position: absolute;
   bottom: 0;
   width: 100%;
-  background-color: #599a9e;
+  background-color: var(--darkColor1);
   float: left;
   text-align: center;
   padding: 20px 0px;
@@ -264,6 +281,7 @@ body#arbeitsproben #screenshot {
   font-size: 0.8em;
   padding: 0;
   margin-bottom: 5px;
+  color: var(--lightColor2);
 }
 
 #footer a {
@@ -276,8 +294,8 @@ body#arbeitsproben #screenshot {
 }
 
 #footer a#backtotop {
-  background-color: #aedadc;
-  color: #1c393d;
+  background-color: var(--lightColor2);
+  color: var(--darkColor1);
   /* width: max-content; */
   margin-right: auto;
   margin-left: auto;
@@ -287,8 +305,8 @@ body#arbeitsproben #screenshot {
 }
 
 #footer a#backtotop:hover {
-  background-color: #f7fbfb;
-  color: #1c393d;
+  background-color: var(--lightColor1);
+  color: var(--darkColor1);
 }
 
 /* The sticky class is added to the navbar with JS when it reaches its scroll position */
@@ -320,7 +338,7 @@ body#arbeitsproben #screenshot {
     font-size: 2em;
   }
   #header h2 {
-    /* margin-top: -55px; */
+    margin-top: 0px;
     text-align: right;
     line-height: 0.2em;
     padding-top: 0px;
@@ -389,7 +407,7 @@ body#arbeitsproben #screenshot {
   }
 
   .active {
-    color: #e4e4e4;
+    color: var(--lightColor1);
   }
   .sticky#menu {
     padding: 30px 20px 25px 20px;
@@ -416,6 +434,8 @@ body#arbeitsproben #screenshot {
   #header h2 {
     font-size: 3em;
     padding-top: 20px;
+    color: var(--lightColor0);
+    margin-top: 35px;
     /* line-height: 0.2; */
   }
 
@@ -430,12 +450,17 @@ body#arbeitsproben #screenshot {
   #menu_contact {
     text-align: right;
     float: right;
-    background-color: #aedadc;
+    background-color: var(--lightColor2);
+    color: var(--darkColor1);
     margin: 0;
     border-radius: 10px;
     padding: 5px;
   }
 
+  a#menu_contact:hover:not(.active) {
+    color: var(--darkColor2);
+    background-color: var(--lightColor0);
+  }
   .main-content {
     margin-top: 0px;
     height: 100%;

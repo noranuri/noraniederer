@@ -115,7 +115,7 @@ button {
 button div {
   width: 30px;
   height: 5px;
-  background-color: var(--lightColor2);
+  background-color: var(--lightColor1);
   margin: 5px 0;
   border: none;
   border-radius: 5px;

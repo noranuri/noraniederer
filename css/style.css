@@ -184,7 +184,7 @@ div#home-img {
 }
 
 p#home-paragraph {
-  background-color: rgb(207, 210, 215, 0.5);
+  background-color: rgba(207, 210, 215, 0.5);
   width: 100%;
   padding: 0px 25px 10px 20px;
 }

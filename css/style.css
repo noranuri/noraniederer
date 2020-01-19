@@ -217,7 +217,7 @@ body#angebot #right div a#link {
 
 /* hover on screenshot (arbeitsprobe) invisible!*/
 body#angebot #right div a#link:hover {
-  background-color: (#cfd2d7);
+  background-color: #cfd2d7;
 }
 
 .div_box {

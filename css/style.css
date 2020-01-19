@@ -195,6 +195,9 @@ h2#home_home {
 h2#home_angebot {
   border-bottom: 1px solid var(--lightColor0);
 }
+#right h2 {
+  border-bottom: 1px solid var(--lightColor0);
+}
 h2#home_arbeitsproben {
   border-bottom: 1px solid var(--lightColor0);
   /* padding-top: 30px; */
@@ -203,6 +206,13 @@ h2#home_arbeitsproben {
 /* body#arbeitsproben h2#home_arbeitsproben {
   margin-top: 0;
 } */
+
+body#angebot #right div a#link {
+  /* background-color: blueviolet; */
+  display: inline-block;
+  height: 200px;
+}
+
 .div_box {
   padding: 5px;
   /* margin: 20px; */
@@ -213,7 +223,11 @@ h2#home_arbeitsproben {
 #screenshot {
   width: 100%;
   margin-top: -20px;
-  padding-bottom: 210px;
+  /* padding-bottom: 210px; */
+}
+
+body#angebot #right {
+  padding-bottom: 100px;
 }
 
 #right p {
@@ -224,6 +238,7 @@ h2#home_arbeitsproben {
 #right {
   padding-top: 0px;
   padding-bottom: 80px;
+
   width: 100%;
   height: 100%;
   background-color: var(--lightColor2);
@@ -266,6 +281,10 @@ body#arbeitsproben #screenshot {
   max-width: 500px;
   margin-bottom: 10px;
 }
+
+/* body#angebot #screenshot {
+  padding-bottom: 0;
+} */
 
 #footer {
   position: absolute;

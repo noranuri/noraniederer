@@ -340,6 +340,7 @@ body#arbeitsproben #screenshot {
 .sticky + .main-content {
   /* padding-top: 116.667px; */
   padding-top: 140.667px;
+  padding-top: 110.5px;
 }
 
 @media screen and (min-width: 500px) {

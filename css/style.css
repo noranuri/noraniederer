@@ -187,10 +187,12 @@ p#home-paragraph {
   background-color: rgba(207, 210, 215, 0.5);
   width: 100%;
   padding: 0px 25px 10px 20px;
+  margin-top: 15px;
 }
 
 h2#home_home {
   color: var(--lightColor2);
+  margin-top: 30px;
 }
 h2#home_angebot {
   border-bottom: 1px solid var(--lightColor0);
@@ -211,6 +213,11 @@ body#angebot #right div a#link {
   /* background-color: blueviolet; */
   display: inline-block;
   height: 200px;
+}
+
+/* hover on screenshot (arbeitsprobe) invisible!*/
+body#angebot #right div a#link:hover {
+  background-color: (var(--lightColor2));
 }
 
 .div_box {
@@ -324,7 +331,7 @@ body#arbeitsproben #screenshot {
 }
 
 #footer a#backtotop:hover {
-  background-color: var(--lightColor1);
+  background-color: var(--lightColor0);
   color: var(--darkColor1);
 }
 
@@ -346,7 +353,8 @@ body#arbeitsproben #screenshot {
 @media screen and (min-width: 500px) {
   #header {
     background-position: center;
-    padding-left: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
     height: 240px;
   }
   h1 {
@@ -387,8 +395,8 @@ body#arbeitsproben #screenshot {
     /* width: min-content; */
     width: 250px;
     float: right;
-    margin-right: -10px;
-    margin-top: 10px;
+    top: 20px;
+    /* margin-right: -10px; */
   }
 
   body#home #main div {
@@ -430,9 +438,10 @@ body#arbeitsproben #screenshot {
     color: var(--lightColor1);
   }
   .sticky#menu {
-    padding: 30px 20px 25px 20px;
+    padding: 30px 6px 30px 20px;
+
     /* background-color: firebrick; */
-    height: 80.167px;
+    height: 80.1667px;
   }
 
   .sticky + .main-content {
@@ -472,9 +481,8 @@ body#arbeitsproben #screenshot {
     float: right;
     background-color: var(--lightColor2);
     color: var(--darkColor1);
-    margin: 0;
+    padding: 30px 20px 25px 20px;
     border-radius: 10px;
-    padding: 5px;
   }
 
   a#menu_contact:hover:not(.active) {

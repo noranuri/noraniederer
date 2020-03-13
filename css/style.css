@@ -152,15 +152,17 @@ a {
 #main a:hover,
 #right a:hover {
   color: #72869d;
-  background-color: #f7fbfb;
+
+  /* background-color: #f7fbfb; */
   padding: 5px;
   margin: -5px;
 }
 
 #menu a:hover:not(.active),
 #footer a:hover:not(.active) {
-  background-color: #cfd2d7;
+  /* background-color: #cfd2d7; */
   color: #3f658d;
+  color: #72869d;
   padding: 5px;
 }
 
@@ -175,6 +177,24 @@ a {
 body#home #main div {
   height: 400px;
 }
+
+body#home #right {
+  text-align: center;
+  padding-top: 100px;
+}
+body#home #right a {
+  margin: 0px;
+  padding: 0px;
+}
+body#home #right h3 {
+  padding: 0px;
+}
+
+img#liebesbriefe {
+  margin: 0 auto;
+  float: none;
+}
+
 div#home-img {
   width: 100%;
   float: left;
@@ -189,6 +209,7 @@ p#home-paragraph {
   width: 100%;
   padding: 0px 25px 10px 20px;
   margin-top: 15px;
+  /* display: none; */
 }
 
 h2#home_home {
@@ -218,7 +239,8 @@ body#angebot #right div a#link {
 
 /* hover on screenshot (arbeitsprobe) invisible!*/
 body#angebot #right div a#link:hover {
-  background-color: #cfd2d7;
+  /* background-color: #cfd2d7; */
+  color: #3f658d;
 }
 
 .div_box {
@@ -246,7 +268,6 @@ body#angebot #right {
 #right {
   padding-top: 0px;
   padding-bottom: 80px;
-
   width: 100%;
   height: 100%;
   background-color: #cfd2d7;
@@ -286,7 +307,8 @@ body#kontakt #right {
 
 body#arbeitsproben #screenshot {
   padding-bottom: 150px;
-  max-width: 500px;
+  /* max-width: 500px; */
+
   margin-bottom: 10px;
 }
 
@@ -394,7 +416,7 @@ body#arbeitsproben #screenshot {
 
   p#home-paragraph {
     /* width: min-content; */
-    width: 250px;
+    width: 30%;
     float: right;
     top: 20px;
     /* margin-right: -10px; */
@@ -428,7 +450,7 @@ body#arbeitsproben #screenshot {
   body#angebot #right div {
     float: left;
     margin: 0 auto;
-    width: 50%;
+    /* width: 50%; */
   }
 
   #menu {
@@ -476,7 +498,7 @@ body#arbeitsproben #screenshot {
   button {
     display: none;
   }
-
+  /* 
   #menu_contact {
     text-align: right;
     float: right;
@@ -489,6 +511,11 @@ body#arbeitsproben #screenshot {
   a#menu_contact:hover:not(.active) {
     color: #3f658d;
     background-color: #f7fbfb;
+  } */
+
+  a#menu_contact:hover:not(.active) {
+    color: #3f658d;
+    background-color: #cfd2d7;
   }
   .main-content {
     margin-top: 0px;
@@ -508,9 +535,29 @@ body#arbeitsproben #screenshot {
     text-align: left;
     padding-right: 20px;
   }
+  body#home #main,
+  body#angebot #main {
+    width: 100%;
+  }
+  body#home #right {
+    width: 100%;
+    padding-top: 200px;
+  }
+  body#angebot #right {
+    width: 100%;
+    padding-top: 20px;
+  }
+  body#angebot #right div.arbeitsproben {
+    /* background-color: #f7fbfb; */
+    width: 50%;
+    float: left;
+    /* margin: 20px;
+    padding: 10px; */
+  }
 
   p#home-paragraph {
     margin-top: -50px;
+    margin-top: 0px;
   }
 
   #right {
@@ -535,7 +582,7 @@ body#arbeitsproben #screenshot {
   }
 
   body#impressum #right {
-    height: 200vh;
+    height: 120vh;
   }
 }
 

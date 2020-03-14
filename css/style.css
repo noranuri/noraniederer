@@ -94,6 +94,7 @@ h3 {
   overflow: hidden;
   margin: 0;
   padding-bottom: 80.167px;
+  padding-bottom: 60.167px;
   /* padding-bottom: 119.167px; */
 }
 
@@ -535,17 +536,25 @@ body#arbeitsproben #screenshot {
     text-align: left;
     padding-right: 20px;
   }
-  body#home #main,
-  body#angebot #main {
+  body#home #main {
     width: 100%;
+  }
+
+  body#angebot #main {
+    margin: 0 auto;
+    float: none;
+    width: 70%;
+    padding-top: 50px;
   }
   body#home #right {
     width: 100%;
     padding-top: 200px;
   }
   body#angebot #right {
-    width: 100%;
+    /* width: 100%; */
+    width: 70%;
     padding-top: 20px;
+    margin: 20px auto 0px auto;
   }
   body#angebot #right div.arbeitsproben {
     /* background-color: #f7fbfb; */
@@ -563,7 +572,7 @@ body#arbeitsproben #screenshot {
   #right {
     width: 30%;
     height: 100%;
-    float: left;
+    /* float: left; */
   }
 
   img {

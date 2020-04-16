@@ -206,11 +206,13 @@ div#home-img {
 }
 
 p#home-paragraph {
-  background-color: rgba(207, 210, 215, 0.5);
+  /* background-color: rgba(207, 210, 215, 0.5); */
   width: 100%;
   padding: 0px 25px 10px 20px;
-  margin-top: 15px;
+  /* margin-top: 15px; */
   /* display: none; */
+  line-height: 1.5;
+  font-size: 18px;
 }
 
 h2#home_home {
@@ -421,6 +423,7 @@ body#arbeitsproben #screenshot {
     float: right;
     top: 20px;
     /* margin-right: -10px; */
+    text-align: right;
   }
 
   body#home #main div {

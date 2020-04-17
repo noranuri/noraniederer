@@ -201,15 +201,22 @@ div#home-img {
   float: left;
   background-image: url(bilder/IMG_9390_Kopie1.jpg);
 
+  background-image: url(Bilder_neu/IMG_0005_Kopie1.jpg);
+  background-image: url(Bilder_neu/IMG_8113.JPG);
+  background-image: url(Bilder_neu/IMG_0225_x.jpg);
+
+  opacity: 0.75;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
 }
 
 p#home-paragraph {
-  /* background-color: rgba(207, 210, 215, 0.5); */
+  background-color: rgba(207, 210, 215, 0.5);
   width: 100%;
-  padding: 0px 25px 10px 20px;
+  height: 100%;
+  margin-top: -70px;
+  padding: 90px 25px 10px 20px;
   /* margin-top: 15px; */
   /* display: none; */
   line-height: 1.5;
@@ -218,6 +225,7 @@ p#home-paragraph {
 
 h2#home_home {
   color: #cfd2d7;
+  color: #2c4157;
   margin-top: 30px;
 }
 h2#home_angebot {
@@ -399,6 +407,13 @@ body#arbeitsproben #screenshot {
     padding-top: 0px;
   }
 
+  h2#home_home {
+    color: #cfd2d7;
+    color: #2c4157;
+    margin-top: 30px;
+    text-align: right;
+  }
+
   a {
     display: inline;
   }
@@ -420,11 +435,12 @@ body#arbeitsproben #screenshot {
 
   p#home-paragraph {
     /* width: min-content; */
-    width: 30%;
+    /* width: 30%; */
     float: right;
-    top: 20px;
+
     /* margin-right: -10px; */
     text-align: right;
+    padding: 90px 10px;
   }
 
   body#home #main div {
@@ -569,8 +585,10 @@ body#arbeitsproben #screenshot {
   }
 
   p#home-paragraph {
-    margin-top: -50px;
     margin-top: 0px;
+    padding-top: 20px;
+    background-color: rgba(207, 210, 215, 0);
+    width: 100%;
   }
 
   #right {

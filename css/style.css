@@ -111,7 +111,7 @@ button {
   width: 50px;
   background: transparent;
   border: none;
-  z-index: 200;
+  z-index: 900;
 }
 
 button div {

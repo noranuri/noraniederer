@@ -606,7 +606,7 @@ body#arbeitsproben #screenshot {
   p#home-paragraph {
     margin-top: -70px;
     padding-top: 90px;
-    background-color: rgba(207, 210, 215, 0);
+    background-color: rgba(207, 210, 215, 0.1);
     width: 100%;
     color: #2c4157;
     margin-right: 20px;

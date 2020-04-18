@@ -251,7 +251,7 @@ h2#home_arbeitsproben {
 
 body#angebot #right div a#link {
   /* background-color: blueviolet; */
-  display: inline-block;
+  /* display: inline-block; */
   height: 200px;
 }
 
@@ -273,11 +273,6 @@ body#angebot #right div a#link:hover {
   margin-top: -20px;
 
   /* padding-bottom: 210px; */
-}
-
-#screenshot a :hover {
-  width: 100%;
-  max-width: 500px;
 }
 
 body#angebot #right {

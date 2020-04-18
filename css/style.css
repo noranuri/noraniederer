@@ -206,14 +206,14 @@ div#home-img {
   background-image: url(bilder/IMG_0225_2sw2.jpg);
   background-image: url(bilder/steintuermli_sw_02x.jpg);
 
-  opacity: 0.93;
+  /* opacity: 0.93; */
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
 }
 
 p#home-paragraph {
-  background-color: rgba(207, 210, 215, 0.3);
+  background-color: rgba(207, 210, 215, 0.5);
   width: 100%;
   height: 100%;
   margin-top: -120px;

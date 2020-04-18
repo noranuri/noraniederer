@@ -271,7 +271,13 @@ body#angebot #right div a#link:hover {
 #screenshot {
   width: 100%;
   margin-top: -20px;
+
   /* padding-bottom: 210px; */
+}
+
+#screenshot a :hover {
+  width: 100%;
+  max-width: 500px;
 }
 
 body#angebot #right {
@@ -596,6 +602,7 @@ body#arbeitsproben #screenshot {
 
   #screenshot {
     width: 50%;
+    max-width: 500px;
   }
 
   body#impressum #right {

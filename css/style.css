@@ -606,10 +606,10 @@ body#arbeitsproben #screenshot {
   p#home-paragraph {
     margin-top: -70px;
     padding-top: 90px;
-    background-color: rgba(207, 210, 215, 0.1);
+    background-color: rgba(207, 210, 215, 0.25);
     width: 100%;
     color: #2c4157;
-    margin-right: 20px;
+    /* margin-right: 20px; */
     float: right;
   }
 
@@ -619,6 +619,7 @@ body#arbeitsproben #screenshot {
     margin-top: 30px;
     padding-right: 30px;
     text-align: right;
+    /* margin-right: 20px; */
   }
 
   body#home #main div {
@@ -637,6 +638,6 @@ body#arbeitsproben #screenshot {
     float: right;
     /* margin-right: -10px; */
     text-align: right;
-    margin-right: 20px;
+    /* margin-right: 20px; */
   }
 }

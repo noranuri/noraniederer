@@ -218,11 +218,12 @@ p#home-paragraph {
   width: 100%;
   height: 100%;
   margin-top: -70px;
-  padding: 90px 25px 10px 20px;
+  padding: 390px 25px 10px 20px;
   /* margin-top: 15px; */
   /* display: none; */
   line-height: 1.5;
   font-size: 18px;
+  color: #e4e9eb;
 }
 
 h2#home_home {
@@ -230,6 +231,14 @@ h2#home_home {
   color: #2c4157;
   margin-top: 30px;
 }
+
+h2#home_home {
+  color: #cfd2d7;
+  color: #2c4157;
+  margin-top: 30px;
+  text-align: right;
+}
+
 h2#home_angebot {
   border-bottom: 1px solid #f7fbfb;
 }
@@ -409,13 +418,6 @@ body#arbeitsproben #screenshot {
     padding-top: 0px;
   }
 
-  h2#home_home {
-    color: #cfd2d7;
-    color: #2c4157;
-    margin-top: 30px;
-    text-align: right;
-  }
-
   a {
     display: inline;
   }
@@ -435,21 +437,13 @@ body#arbeitsproben #screenshot {
     margin-bottom: 10px;
   }
 
-  p#home-paragraph {
-    /* width: min-content; */
-    /* width: 30%; */
-    float: right;
-
-    /* margin-right: -10px; */
-    text-align: right;
-    padding: 90px 10px;
-  }
-
-  body#home #main div {
-    text-align: right;
-    /* text-align: left; */
-    padding-right: 10px;
-  }
+  /* p#home-paragraph {
+  
+    float: none;
+    
+    text-align: left;
+    padding: 60px 10px;
+  } */
 
   body#kontakt #right div {
     float: left;
@@ -593,6 +587,7 @@ body#arbeitsproben #screenshot {
     padding-top: 20px;
     background-color: rgba(207, 210, 215, 0);
     width: 100%;
+    color: #2c4157;
   }
 
   #right {
@@ -618,6 +613,28 @@ body#arbeitsproben #screenshot {
 
   body#impressum #right {
     height: 120vh;
+  }
+
+  p#home-paragraph {
+    /* width: min-content; */
+    /* width: 30%; */
+    float: right;
+    /* margin-right: -10px; */
+    text-align: right;
+    padding: 20px 10px;
+  }
+
+  h2#home_home {
+    color: #cfd2d7;
+    color: #2c4157;
+    margin-top: 30px;
+    text-align: right;
+  }
+
+  body#home #main div {
+    text-align: right;
+    /* text-align: left; */
+    padding-right: 10px;
   }
 }
 

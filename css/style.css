@@ -604,8 +604,8 @@ body#arbeitsproben #screenshot {
     height: 120vh;
   }
   p#home-paragraph {
-    margin-top: -125px;
-    padding-top: 90px;
+    margin-top: -155px;
+    padding-top: 150px;
     background-color: rgba(207, 210, 215, 0.25);
     width: 100%;
     color: #2c4157;
@@ -623,7 +623,8 @@ body#arbeitsproben #screenshot {
     /* margin-right: 20px; */
 
     text-align: left;
-    margin-left: 15%;
+    margin-left: 10%;
+    padding-top: 30px;
   }
 
   body#home #main div {

@@ -1,0 +1,105 @@
+
+
+<div class="wps-form">
+<!-- Contact Form Code -->
+
+<span style=" font-weight: 400; font-size: 20px;">Wählen Sie das gewünschte Therapie Angebot</span>
+
+   <!-- Zeile 1 -->
+   <div class="wps-form-row">
+
+    <!-- Spalte 1 -->
+    <div class="wps-form-column">
+
+[select* Buchung "Therapy (10 Behandlungen)" "Therapy Plus (25 Behandlungen)" "Therapy Top (40 Behandlungen)"]
+
+</div>
+</div>
+<!-- Ende der Zeile 1 -->
+
+<br> 
+
+<!-- Zeile 2 -->
+<div class="wps-form-row">
+
+    <!-- Spalte 1 -->
+    <div class="wps-form-column">
+<span style=" font-weight: 500; font-size: 20px;">Wählen Sie hier die gewünschten Wochentage: </span>
+<br>
+<span style=" font-weight: 500; font-size: 16px;">
+    Die Anzahl der ausgewählten Tage bestimmt die Frequenz der Behandlungen, den Starttermin bestimmen wir gemeinsam im Erstgespräch. </span>
+
+[checkbox Tage label_first use_label_element "Montag" "Dienstag" "Mittwoch" "Donnerstag" "Freitag" "Samstag"]
+</div>
+</div>
+<!-- Ende der Zeile 2 -->
+<br>
+
+<!-- Zeile 3 -->
+    <div class="wps-form-row">
+
+        <!-- Spalte 1 -->
+        <div class="wps-form-column">
+
+<label> Nachname
+    [text* Nachname] </label> 
+
+</div>
+
+ <!-- Spalte 2 -->
+        <div class="wps-form-column">
+
+<label> Vorname
+    [text* Vorname] </label>
+
+        </div>
+    </div>
+    <!-- Ende der Zeile 3 -->
+
+
+
+
+<label> Adresse
+    [text* Adresse] </label>
+<div class="wps-form-row">
+
+        <!-- Spalte 1 -->
+        <div class="wps-form-column">
+
+<label> PLZ
+    [text* PLZ] </label>
+ </div>
+
+ <!-- Spalte 2 -->
+        <div class="wps-form-column">
+
+<label> Ort
+    [text* Ort] </label>
+
+ </div>
+ </div>
+
+
+<label> Land
+    [text* Land] </label>
+
+
+<label> Telefon
+[tel* Telefon Privat] </label>
+
+<label> Geburtsdatum
+    [date* Geburtsdatum] </label>
+
+<label> E-Mail-Adresse
+    [email* E-Mail] </label>
+
+<label> Betreff
+    [text* Betreff] </label>
+
+<label> Nachricht (optional)
+    [textarea Nachricht] </label>
+
+[submit "Senden"]
+
+    
+</div>

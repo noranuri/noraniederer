@@ -201,6 +201,7 @@ img#liebesbriefe {
 div#home-img {
   width: 100%;
   float: left;
+  
   background-image: url(bilder/IMG_9390_Kopie1.jpg);
 
   background-image: url(bilder/IMG_0225_2sw2.jpg);
@@ -210,6 +211,7 @@ div#home-img {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+  background-position: top;
 }
 
 p#home-paragraph {
@@ -402,7 +404,7 @@ body#arbeitsproben #screenshot {
     height: 240px;
   }
   h1 {
-    font-size: 5em;
+    font-size: 4em;
     /* line-height: 0.5; */
   }
 
@@ -497,7 +499,7 @@ body#arbeitsproben #screenshot {
   }
   #header h1 {
     margin: 0px;
-    font-size: 7.5em;
+    font-size: 5em;
   }
 
   #header h2 {
